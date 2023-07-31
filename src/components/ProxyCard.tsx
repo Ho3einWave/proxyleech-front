@@ -63,7 +63,7 @@ const ProxyCard: React.FC<ProxyCardProps> = ({ link, time }) => {
         <div className="bg-zinc-800 p-4 rounded-2xl font-irancell relative pb-10">
             <div onClick={copyLink} className="cursor-pointer">
                 <div dir="rtl" className="flex flex-col text-xs gap-1">
-                    <span>سرور: {proxyDetails?.server}</span>
+                    <span>سرور: {proxyDetails?.server?.slice(0, 25)}</span>
                     <span>پورت: {proxyDetails?.port}</span>
                     <span>سکرت: {proxyDetails?.secret?.slice(0, 25)}...</span>
                 </div>
