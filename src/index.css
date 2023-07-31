@@ -4,13 +4,13 @@
 
 @font-face {
     font-family: "Irancell";
-    src: url("./MTNIrancell-Light.ttf") format("truetype");
+    src: url("/MTNIrancell-Light.ttf") format("truetype");
     font-weight: normal;
 }
 
 @font-face {
     font-family: "Irancell-bold";
-    src: url("./MTNIrancell-Bold.ttf") format("truetype");
+    src: url("/MTNIrancell-Bold.ttf") format("truetype");
     font-weight: bold;
 }
 
