@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Irancell";
+    src: url("./MTNIrancell-Light.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Irancell-bold";
+    src: url("./MTNIrancell-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+body {
+    background: rgb(24, 24, 27, 1);
+    background-size: 100px 100px;
+    background-image: linear-gradient(
+            to right,
+            rgb(35, 35, 35) 1px,
+            transparent 1px
+        ),
+        linear-gradient(to bottom, rgb(35, 35, 35) 1px, transparent 1px);
+    background-attachment: fixed;
+}
